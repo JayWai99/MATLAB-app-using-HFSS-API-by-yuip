@@ -1,4 +1,4 @@
-##Capstone Project: A MATLAB App Using Third Party APIs
+Capstone Project: A MATLAB App Using Third Party APIs
 =====================================================
 
 This is my capstone project which is about the implementation of 
