@@ -1,0 +1,69 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="107832907" file="C:\Users\FramelessTenno\Desktop\uni stuff\Capstone\hfss_app.prj" location="C:\Users\FramelessTenno\Desktop\uni stuff\Capstone" name="hfss_app" target="target.mlapps" target-name="Package App">
+    <param.appname>hfss_app</param.appname>
+    <param.authnamewatermark>Wai Kin Chan</param.authnamewatermark>
+    <param.email>Wai.K.Chan-3@student.uts.edu.au</param.email>
+    <param.company>University of Technology Sydney</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>A GUI app that runs optimisation algorithms for simulation software.</param.description>
+    <param.screenshot>C:\Users\FramelessTenno\AppData\Local\Temp\tp5fedbac5_0fc1_41b0_a483_8e2c52b4a9c8.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>1ddca793-8884-42ad-95f5-20a69c447cd3</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\hfss_app.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>C:\Users\FramelessTenno\Desktop\uni stuff\matlab capstone\MATLAB-app-using-HFSS-API-by-yuip\hfss-api_by_yuip</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\FramelessTenno\Desktop\uni stuff" name="Capstone" optional="false">C:\Users\FramelessTenno\Desktop\uni stuff\Capstone</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
